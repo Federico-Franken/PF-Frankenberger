@@ -1,0 +1,33 @@
+@mixin field{
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@mixin fields{
+        background-color: white;
+        margin: 5px;
+        padding: 6px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+}
+@mixin label{
+    background-color: orange;
+    padding: 7px;
+    border-radius: 30px;
+    margin: 10px;
+    font-weight: bold;
+}
+@mixin box($color) {
+    background-color: $color;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px;
+}
+@mixin foto-info($color){
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $color;
+}

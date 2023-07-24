@@ -1,35 +1,17 @@
-body {
-  background-color: #ffbc3e;
-}
-body .alquiler {
-  background-image: url(../media/fondo-header-2.jpg);
-  background-size: 100% 100%;
-  background-position: center;
-  height: auto;
-  width: auto;
-}
-body .alquiler .color-h1 {
-  color: black;
-  font-weight: bold;
-  background-color: #ffc107;
-  border-radius: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  margin-top: 50px;
-}
-body .alquiler .tam-img {
-  width: 60%;
-  min-width: 75%;
-}
-body .mas-sobre {
-  height: 800px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #ffd274;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 27 |        @include foto-info (#ffd274);
+ *    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\componentes\body.scss 27:8  root stylesheet */
 
-/*# sourceMappingURL=body.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 27 \2502         @include foto-info (#ffd274);\d\a    \2502         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\componentes\\body.scss 27:8  root stylesheet";
+}

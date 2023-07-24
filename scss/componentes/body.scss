@@ -24,11 +24,7 @@ body {
         }
     }
     .mas-sobre {
-        height: 800px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: #ffd274;
+       @include foto-info (#ffd274);
     }    
 }
 

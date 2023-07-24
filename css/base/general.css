@@ -1,70 +1,17 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 10 |         @include field;
+ *    |         ^^^^^^^^^^^^^^
+ *    '
+ *   scss\base\general.scss 10:9  root stylesheet */
 
-.formulario {
-  width: 700px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 10 \2502          @include field;\d\a    \2502          ^^^^^^^^^^^^^^\a    \2575 \a   scss\\base\\general.scss 10:9  root stylesheet";
 }
-.formulario .field {
-  background-color: white;
-  border-radius: 30px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
-.formulario .fields {
-  background-color: white;
-  margin: 5px;
-  padding: 6px;
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
-}
-.formulario label {
-  background-color: orange;
-  padding: 7px;
-  border-radius: 30px;
-  margin: 10px;
-  font-weight: bold;
-}
-.formulario select, .formulario input {
-  text-align: center;
-  border-radius: 30px;
-  border: 0px;
-}
-
-.button {
-  margin: 10px;
-  padding: 5px;
-  border-color: orange;
-  background-color: orange;
-  font-weight: bold;
-}
-
-.button--modificado {
-  padding: 30px;
-}
-
-.boxs {
-  padding: 40px;
-}
-.boxs .box-1 {
-  background-color: #ffd274;
-  padding: 5px;
-  border-radius: 20px;
-  margin: 10px;
-}
-.boxs .box-2 {
-  background-color: #ffd274;
-  padding: 5px;
-  border-radius: 20px;
-  margin: 10px;
-}
-.boxs .box-3 {
-  background-color: #ffd274;
-  padding: 5px;
-  border-radius: 20px;
-  margin: 10px;
-}
-
-/*# sourceMappingURL=general.css.map */
