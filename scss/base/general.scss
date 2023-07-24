@@ -7,13 +7,13 @@
 .formulario {
     width: 700px;
     .field {
-        @include field;
+        @include field (#ffffff);
     }
     .fields {
-        @include fields;
+        @include fields (#ffffff);
     }
     label {
-        @include label;
+        @include label (orange);
     }
     select,input {
         text-align: center;

@@ -1,7 +1,7 @@
 /* Error: Undefined mixin.
  *    ,
- * 10 |         @include field;
- *    |         ^^^^^^^^^^^^^^
+ * 10 |         @include field (#ffffff);
+ *    |         ^^^^^^^^^^^^^^^^^^^^^^^^
  *    '
  *   scss\base\general.scss 10:9  root stylesheet */
 
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 10 \2502          @include field;\d\a    \2502          ^^^^^^^^^^^^^^\a    \2575 \a   scss\\base\\general.scss 10:9  root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 10 \2502          @include field (#ffffff);\d\a    \2502          ^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\base\\general.scss 10:9  root stylesheet";
 }

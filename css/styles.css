@@ -1,3 +1,16 @@
+.formulario .field {
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.formulario .fields {
+  margin: 5px;
+  padding: 6px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -8,24 +21,13 @@
   width: 700px;
 }
 .formulario .field {
-  background-color: white;
-  border-radius: 30px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #ffffff;
 }
 .formulario .fields {
-  background-color: white;
-  margin: 5px;
-  padding: 6px;
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
+  background-color: #ffffff;
 }
 .formulario label {
   background-color: orange;
-  padding: 7px;
-  border-radius: 30px;
-  margin: 10px;
-  font-weight: bold;
 }
 .formulario select, .formulario input {
   text-align: center;

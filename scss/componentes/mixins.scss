@@ -1,22 +1,31 @@
-@mixin field{
-        background-color: white;
-        border-radius: 30px;
-        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+%field{
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-@mixin fields{
-        background-color: white;
-        margin: 5px;
-        padding: 6px;
-        border-radius: 30px;
-        display: flex;
-        flex-direction: column;
+@mixin field ($color){
+        background-color: $color;
+        @extend %field;
 }
-@mixin label{
-    background-color: orange;
+%fields{
+    margin: 5px;
+    padding: 6px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+@mixin fields ($color){
+        background-color:$color;
+        @extend %fields;
+}
+%label{
     padding: 7px;
     border-radius: 30px;
     margin: 10px;
     font-weight: bold;
+}
+@mixin label($color){
+    background-color: $color;
+    @extend %label;
 }
 @mixin box($color) {
     background-color: $color;
