@@ -1,5 +1,5 @@
 body {
-    background-color: #ffbc3e;
+    background-color: $color-naranja-body;
     .alquiler {
         background-image: url(../media/fondo-header-2.jpg);
         background-size: 100% 100%;
@@ -9,7 +9,7 @@ body {
         .color-h1 {
             color: black;
             font-weight: bold;
-            background-color: #ffc107;
+            background-color: $color-naranja;
             border-radius: 30px;
             padding-top: 10px;
             padding-bottom: 10px;

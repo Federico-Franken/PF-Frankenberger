@@ -7,13 +7,13 @@
 .formulario {
     width: 700px;
     .field {
-        @include field (#ffffff);
+        @include field ($color-blanco);
     }
     .fields {
-        @include fields (#ffffff);
+        @include fields ($color-blanco);
     }
     label {
-        @include label (orange);
+        @include label ($color-naranja);
     }
     select,input {
         text-align: center;
@@ -25,8 +25,8 @@
 .button {
     margin: 10px;
     padding: 5px;
-    border-color: orange;
-    background-color: orange;
+    border-color: $color-naranja;
+    background-color: $color-naranja;
     font-weight: bold;
 }
 
@@ -37,13 +37,13 @@
 .boxs {
     padding: 40px;
     .box-1 {
-       @include box(#ffd274);
+       @include box($color-naranja-box);
     }
     .box-2 {
-        @include box(#ffd274);
+        @include box($color-naranja-box);
     }
     .box-3 {
-        @include box(#ffd274);
+        @include box($color-naranja-box);
     }    
 }
 

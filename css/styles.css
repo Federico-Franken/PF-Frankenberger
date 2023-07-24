@@ -11,6 +11,29 @@
   flex-direction: column;
 }
 
+.formulario label {
+  padding: 7px;
+  border-radius: 30px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.boxs .box-3, .boxs .box-2, .boxs .box-1 {
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.boxs .box-3 i, .boxs .box-2 i, .boxs .box-1 i {
+  font-size: 60px;
+}
+
+body .mas-sobre {
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -21,10 +44,10 @@
   width: 700px;
 }
 .formulario .field {
-  background-color: #ffffff;
+  background-color: white;
 }
 .formulario .fields {
-  background-color: #ffffff;
+  background-color: white;
 }
 .formulario label {
   background-color: orange;
@@ -52,21 +75,12 @@
 }
 .boxs .box-1 {
   background-color: #ffd274;
-  padding: 5px;
-  border-radius: 20px;
-  margin: 10px;
 }
 .boxs .box-2 {
   background-color: #ffd274;
-  padding: 5px;
-  border-radius: 20px;
-  margin: 10px;
 }
 .boxs .box-3 {
   background-color: #ffd274;
-  padding: 5px;
-  border-radius: 20px;
-  margin: 10px;
 }
 
 body {
@@ -82,7 +96,7 @@ body .alquiler {
 body .alquiler .color-h1 {
   color: black;
   font-weight: bold;
-  background-color: #ffc107;
+  background-color: orange;
   border-radius: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -96,10 +110,6 @@ body .alquiler .tam-img {
   min-width: 75%;
 }
 body .mas-sobre {
-  height: 800px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   background-color: #ffd274;
 }
 
@@ -110,6 +120,7 @@ body .mas-sobre {
 }
 .redes i {
   font-size: 60px;
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

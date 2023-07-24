@@ -1,10 +1,17 @@
-.redes {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: #ffbc3e;
-}
-.redes i {
-  font-size: 60px;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 7 |         color: $color-negro;
+ *   |                ^^^^^^^^^^^^
+ *   '
+ *   scss\componentes\redes.scss 7:16  root stylesheet */
 
-/*# sourceMappingURL=redes.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 7 \2502          color: $color-negro;\d\a   \2502                 ^^^^^^^^^^^^\a   \2575 \a   scss\\componentes\\redes.scss 7:16  root stylesheet";
+}
