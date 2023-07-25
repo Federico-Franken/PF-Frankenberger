@@ -21,6 +21,27 @@
         border: 0px;
     }
 }
+.formulario-contacto{
+    width: 600px;
+    .field {
+        @include field ($color-blanco);
+    }
+    .fields {
+        @include fields ($color-blanco);
+    }
+    label {
+        @include label ($color-naranja);
+    }
+    select,input {
+        text-align: center;
+        border-radius: 30px;
+        border: 0px;
+    }
+    textarea{
+        width: 400px;
+        height: 200px;
+    }
+}
 
 .button {
     margin: 10px;
@@ -47,6 +68,18 @@
     }    
 }
 
+.h1-decoration {
+    color: black;
+    font-weight: bold;
+    background-color: $color-naranja;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 50px;
+}
 
 
 

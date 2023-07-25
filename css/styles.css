@@ -1,9 +1,9 @@
-.formulario .field {
+.formulario-contacto .field, .formulario .field {
   border-radius: 30px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.formulario .fields {
+.formulario-contacto .fields, .formulario .fields {
   margin: 5px;
   padding: 6px;
   border-radius: 30px;
@@ -11,7 +11,7 @@
   flex-direction: column;
 }
 
-.formulario label {
+.formulario-contacto label, .formulario label {
   padding: 7px;
   border-radius: 30px;
   margin: 10px;
@@ -58,6 +58,28 @@ body .mas-sobre {
   border: 0px;
 }
 
+.formulario-contacto {
+  width: 600px;
+}
+.formulario-contacto .field {
+  background-color: white;
+}
+.formulario-contacto .fields {
+  background-color: white;
+}
+.formulario-contacto label {
+  background-color: orange;
+}
+.formulario-contacto select, .formulario-contacto input {
+  text-align: center;
+  border-radius: 30px;
+  border: 0px;
+}
+.formulario-contacto textarea {
+  width: 400px;
+  height: 200px;
+}
+
 .button {
   margin: 10px;
   padding: 5px;
@@ -81,6 +103,19 @@ body .mas-sobre {
 }
 .boxs .box-3 {
   background-color: #ffd274;
+}
+
+.h1-decoration {
+  color: black;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 50px;
 }
 
 body {

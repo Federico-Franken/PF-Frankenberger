@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Css -->
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
@@ -48,39 +49,38 @@
         </nav>
     </header>
     <!-- CONTACT-FROM -->
-    <section>
-        <div class="container">
+    <section class="align-items-center justify-content-center">
+        <div class="container-fluid ">
             <div class="row">
-                <div class="col mt-5 text-center">
+                <div class="col-12 mt-5 mb-5 text-center h1-decoration animate__bounceIn">
                     <h1>CONTACT</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col text-center">
-                    <form action="">
-                        <fieldset>
+            <div class="row justify-content-center">
+                <div class="col-4 text-center ">
+                    <form class="formulario-contacto">
+                        <fieldset class="field">
+                            <div class="fields">
                             <label for="Nombre y apellido:">
                                 Nombre y apellido:
                                 <input type="text" placeholder="Nombre y apellido" name="Nombre y apellido:" id="">
                             </label>
-                            <br>
                             <label for="Mail:">
                                 Escribe tu email:
                                 <input type="email" placeholder="----@gmial.com" name="email" id="">
                             </label>
-                            <br>
                             <label for="Teléfono">
                                 Escribe tu teléfono:
                                 <input type="number" placeholder="261-0000000" name="Teléfono" id="Teléfono">
                             </label>
-                            <br>
                             <label for="Notas">
-                                Notas:
-                                <br>
+                                <p>Notas:</p>
                                 <textarea placeholder="Notas"></textarea>
                             </label>
-                            <br>
-                            <button>Enviar</button>
+                            </div>
+                            <div class="bottom m-2">
+                                <a class="btn button" href="/pages/reserva.html" role="button">Enviar</a>
+                            </div>
                         </fieldset>
                     </form>
                 </div>
