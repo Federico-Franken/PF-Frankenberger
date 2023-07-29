@@ -1,0 +1,44 @@
+.header {
+    width: auto;
+    height: 120px;
+    background-color: white;
+
+    .container-fluid .row {
+        height: 120px;
+       
+
+        img {
+            width: auto;
+            height: 100px;
+        }
+    }
+
+    .head-2 {
+        display: flex;
+        width: auto;
+        height: 100px;
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        i {
+            font-size: 40px;
+            color: orange;
+        }
+
+        .sub-head {
+            padding: 20px;
+            color: black;
+            span{
+                font-weight: bold;
+            }
+        }
+
+        .sub-i {
+            padding-bottom: 20px;
+        }
+    }
+}

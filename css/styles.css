@@ -118,6 +118,44 @@ body .mas-sobre {
   margin-top: 50px;
 }
 
+.header {
+  width: auto;
+  height: 120px;
+  background-color: white;
+}
+.header .container-fluid .row {
+  height: 120px;
+}
+.header .container-fluid .row img {
+  width: auto;
+  height: 100px;
+}
+.header .head-2 {
+  display: flex;
+  width: auto;
+  height: 100px;
+}
+.header .head-2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.header .head-2 i {
+  font-size: 40px;
+  color: orange;
+}
+.header .head-2 .sub-head {
+  padding: 20px;
+  color: black;
+}
+.header .head-2 .sub-head span {
+  font-weight: bold;
+}
+.header .head-2 .sub-i {
+  padding-bottom: 20px;
+}
+
 body {
   background-color: #ffbc3e;
 }
