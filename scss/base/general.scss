@@ -58,13 +58,13 @@
 .boxs {
     padding: 40px;
     .box-1 {
-       @include box($color-naranja-box);
+       @include box(white);
     }
     .box-2 {
-        @include box($color-naranja-box);
+        @include box(white);
     }
     .box-3 {
-        @include box($color-naranja-box);
+        @include box(white);
     }    
 }
 

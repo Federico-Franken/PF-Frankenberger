@@ -25,6 +25,7 @@
 }
 .boxs .box-3 i, .boxs .box-2 i, .boxs .box-1 i {
   font-size: 60px;
+  color: orange;
 }
 
 body .mas-sobre {
@@ -96,13 +97,13 @@ body .mas-sobre {
   padding: 40px;
 }
 .boxs .box-1 {
-  background-color: #ffd274;
+  background-color: white;
 }
 .boxs .box-2 {
-  background-color: #ffd274;
+  background-color: white;
 }
 .boxs .box-3 {
-  background-color: #ffd274;
+  background-color: white;
 }
 
 .h1-decoration {
@@ -157,8 +158,8 @@ body .mas-sobre {
 }
 
 .container-fluid {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .nav-bar {
@@ -205,6 +206,9 @@ body .alquiler h1 {
   font-size: 60px;
   font-weight: bold;
   color: white;
+}
+body .boxs h2 {
+  font-size: 50px;
 }
 body .mas-sobre {
   background-color: #ffd274;

@@ -21,6 +21,11 @@ body {
             color: white;
         }
     }
+    .boxs{
+        h2{
+            font-size: 50px;
+        }
+    }
     .mas-sobre {
        @include foto-info (#ffd274);
     }    
