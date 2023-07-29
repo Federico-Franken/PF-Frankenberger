@@ -1,26 +1,24 @@
 body {
     background-color: white;
     .alquiler {
-        background-image: url(../media/fondo-header-2.jpg);
+        background-image: url(/media/paisaje\ 1.jpg);
         background-size: 100% 100%;
         background-position: center;
         height: auto;
         width: auto;
         .color-h1 {
-            color: black;
-            font-weight: bold;
-            background-color: $color-naranja;
-            border-radius: 30px;
-            padding-top: 10px;
-            padding-bottom: 10px;
             padding-left: 40px;
-            padding-right: 40px;
-            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-            margin-top: 50px;
+            margin-top: 30px;
+            width: 700px;
         }
         .tam-img {
             width: 60%;
             min-width: 75%;
+        }
+        h1{
+            font-size: 60px;
+            font-weight: bold;
+            color: white;
         }
     }
     .mas-sobre {

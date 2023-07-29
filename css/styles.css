@@ -157,8 +157,8 @@ body .mas-sobre {
 }
 
 .container-fluid {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .nav-bar {
@@ -186,27 +186,25 @@ body {
   background-color: white;
 }
 body .alquiler {
-  background-image: url(../media/fondo-header-2.jpg);
+  background-image: url(/media/paisaje\ 1.jpg);
   background-size: 100% 100%;
   background-position: center;
   height: auto;
   width: auto;
 }
 body .alquiler .color-h1 {
-  color: black;
-  font-weight: bold;
-  background-color: orange;
-  border-radius: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   padding-left: 40px;
-  padding-right: 40px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  margin-top: 50px;
+  margin-top: 30px;
+  width: 700px;
 }
 body .alquiler .tam-img {
   width: 60%;
   min-width: 75%;
+}
+body .alquiler h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
 }
 body .mas-sobre {
   background-color: #ffd274;
