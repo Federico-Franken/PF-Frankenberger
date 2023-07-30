@@ -1,3 +1,31 @@
-
+footer {
+  padding-top: 50px;
+}
+footer img {
+  width: auto;
+  height: 100px;
+}
+footer i {
+  font-size: 60px;
+  color: orange;
+}
+footer h4 {
+  font-weight: bold;
+}
+footer .derechos-footer {
+  font-weight: bold;
+  background-color: orange;
+}
+footer .icon-footer {
+  display: flex;
+  justify-content: space-around;
+}
+footer .preguntas-footer a {
+  padding-bottom: 20px;
+}
+footer .preguntas-footer a:hover {
+  font-weight: bold;
+  color: orange;
+}
 
 /*# sourceMappingURL=footer.css.map */

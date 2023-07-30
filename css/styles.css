@@ -119,6 +119,14 @@ body .mas-sobre {
   margin-top: 50px;
 }
 
+.carrusel .car-details h2 {
+  font-size: 30px;
+}
+
+.carrousel-two {
+  display: flex;
+}
+
 .header {
   width: auto;
   height: 120px;
@@ -187,7 +195,7 @@ body {
   background-color: white;
 }
 body .alquiler {
-  background-image: url("../../media/pisaje.jpg");
+  background-image: url("../media/pisaje.jpg");
   background-size: 100% 100%;
   background-position: center;
   height: auto;
@@ -209,22 +217,43 @@ body .alquiler h1 {
 }
 body .boxs h2 {
   font-size: 50px;
+  padding-bottom: 10px;
 }
 body .mas-sobre {
   background-color: #ffd274;
 }
 body .mas-sobre h2 {
-  font-size: 100px;
+  font-size: 50px;
 }
 
-.redes {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: #ffbc3e;
+footer {
+  padding-top: 50px;
 }
-.redes i {
+footer img {
+  width: auto;
+  height: 100px;
+}
+footer i {
   font-size: 60px;
-  color: black;
+  color: orange;
+}
+footer h4 {
+  font-weight: bold;
+}
+footer .derechos-footer {
+  font-weight: bold;
+  background-color: orange;
+}
+footer .icon-footer {
+  display: flex;
+  justify-content: space-around;
+}
+footer .preguntas-footer a {
+  padding-bottom: 20px;
+}
+footer .preguntas-footer a:hover {
+  font-weight: bold;
+  color: orange;
 }
 
 /*# sourceMappingURL=styles.css.map */
