@@ -187,7 +187,7 @@ body {
   background-color: white;
 }
 body .alquiler {
-  background-image: url(/media/paisaje\ 1.jpg);
+  background-image: url("../media/pisaje.jpg");
   background-size: 100% 100%;
   background-position: center;
   height: auto;
