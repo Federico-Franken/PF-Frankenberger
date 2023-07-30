@@ -41,7 +41,7 @@
     @extend %box;
 }
 %foto-info{
-    height: 800px;
+    height: 600px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -49,6 +49,9 @@
 @mixin foto-info($color){
     @extend %foto-info;
     background-color: $color;
+    h2{
+        font-size: 100px;
+    }
 }
 
 
