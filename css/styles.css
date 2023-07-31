@@ -119,6 +119,9 @@ body .mas-sobre {
   margin-top: 50px;
 }
 
+.carrusel {
+  margin-bottom: 30px;
+}
 .carrusel .car-details h2 {
   font-size: 30px;
 }
