@@ -127,6 +127,11 @@ body .mas-sobre {
   display: flex;
 }
 
+.tam-img {
+  width: 450px;
+  height: 300px;
+}
+
 .header {
   width: auto;
   height: 120px;
