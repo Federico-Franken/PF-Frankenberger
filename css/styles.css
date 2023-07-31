@@ -214,19 +214,18 @@ body .alquiler {
   height: auto;
   width: auto;
 }
-body .alquiler .color-h1 {
-  padding-left: 40px;
-  margin-top: 30px;
-  width: 700px;
-}
-body .alquiler .tam-img {
-  width: 60%;
-  min-width: 75%;
-}
 body .alquiler h1 {
   font-size: 60px;
   font-weight: bold;
   color: white;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+@media (max-width: 600px) {
+  body .alquiler h1 {
+    font-size: 50px;
+    margin-left: 20px;
+  }
 }
 body .boxs h2 {
   font-size: 50px;
@@ -238,6 +237,15 @@ body .mas-sobre {
 }
 body .mas-sobre h2 {
   font-size: 50px;
+}
+@media (max-width: 992px) {
+  body .mas-sobre {
+    height: 800px;
+    background-color: rgba(255, 200, 83, 0.6980392157);
+  }
+  body .mas-sobre h2 {
+    font-size: 50px;
+  }
 }
 
 footer {

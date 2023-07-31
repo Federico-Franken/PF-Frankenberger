@@ -6,19 +6,21 @@ body {
         background-position: center;
         height: auto;
         width: auto;
-        .color-h1 {
-            padding-left: 40px;
-            margin-top: 30px;
-            width: 700px;
-        }
-        .tam-img {
-            width: 60%;
-            min-width: 75%;
-        }
         h1{
             font-size: 60px;
             font-weight: bold;
             color: white;
+            margin-top: 30px;
+            margin-left: 70px;
+        }
+        @media (max-width:600px) {
+           
+                h1{
+                    font-size: 50px;
+                    margin-left: 20px;
+                } 
+            
+           
         }
     }
     .boxs{
@@ -32,6 +34,15 @@ body {
         
        @include foto-info (#ffc853b2);
     } 
+    @media (max-width:992px){
+        .mas-sobre {
+            height: 800px;
+            
+           @include foto-info (#ffc853b2);
+        } 
+    }
+   
+    
 }
 
 
