@@ -28,7 +28,9 @@ body {
         }
     }
     .mas-sobre {
-       @include foto-info (#ffd274);
+        height: 500px;
+        
+       @include foto-info (#ffc853b2);
     } 
 }
 
