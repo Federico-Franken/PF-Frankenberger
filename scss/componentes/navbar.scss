@@ -31,6 +31,9 @@
             margin-top: 10px;
             font-size: 30px;
         }
+        li a:hover{
+            pointer-events: none;
+        }
     }
     img{
         height: 50px;

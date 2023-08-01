@@ -223,6 +223,9 @@ body .mas-sobre {
     margin-top: 10px;
     font-size: 30px;
   }
+  .nav-bar li a:hover {
+    pointer-events: none;
+  }
 }
 .nav-bar img {
   height: 50px;
