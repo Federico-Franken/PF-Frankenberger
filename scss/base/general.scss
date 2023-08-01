@@ -82,9 +82,16 @@
 }
 .carrusel{
     margin-bottom: 30px;
+    padding: 100px;
     .car-details{
         h2{
             font-size: 30px;
+        }
+    }
+    @media (max-width:772px) {
+        padding: 0px;
+        .container-fluid{
+            padding: 50px;
         }
     }
 }

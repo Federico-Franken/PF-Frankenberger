@@ -121,9 +121,18 @@ body .mas-sobre {
 
 .carrusel {
   margin-bottom: 30px;
+  padding: 100px;
 }
 .carrusel .car-details h2 {
   font-size: 30px;
+}
+@media (max-width: 772px) {
+  .carrusel {
+    padding: 0px;
+  }
+  .carrusel .container-fluid {
+    padding: 50px;
+  }
 }
 
 .carrousel-two {
