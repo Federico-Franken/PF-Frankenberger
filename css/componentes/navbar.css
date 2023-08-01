@@ -21,21 +21,20 @@
   margin-right: 70px;
   border-radius: 10px;
 }
-.nav-bar li a:hover {
-  background-color: black;
-  color: orange;
-  height: 25px;
-  transition: 1s;
-  border-radius: 0px;
-}
 @media (max-width: 990px) {
   .nav-bar li a {
     margin-right: 0px;
     margin-top: 10px;
     font-size: 30px;
   }
+}
+@media (min-width: 1200px) {
   .nav-bar li a:hover {
-    pointer-events: none;
+    background-color: black;
+    color: orange;
+    height: 25px;
+    transition: 1s;
+    border-radius: 0px;
   }
 }
 .nav-bar img {
