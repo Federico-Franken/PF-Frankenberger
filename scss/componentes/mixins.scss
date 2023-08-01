@@ -45,12 +45,19 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   
 }
 @mixin foto-info($color){
     @extend %foto-info;
     background-color: $color;
     h2{
         font-size: 50px;
+    }
+    @media (max-width:600px) {
+        height: 800px;
+        .container-fluid{
+            padding: 0px;
+        }
     }
 }
 

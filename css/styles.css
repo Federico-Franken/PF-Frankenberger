@@ -246,6 +246,14 @@ body .mas-sobre {
 body .mas-sobre h2 {
   font-size: 50px;
 }
+@media (max-width: 600px) {
+  body .mas-sobre {
+    height: 800px;
+  }
+  body .mas-sobre .container-fluid {
+    padding: 0px;
+  }
+}
 @media (max-width: 992px) {
   body .mas-sobre {
     height: 800px;
@@ -253,6 +261,14 @@ body .mas-sobre h2 {
   }
   body .mas-sobre h2 {
     font-size: 50px;
+  }
+}
+@media (max-width: 992px) and (max-width: 600px) {
+  body .mas-sobre {
+    height: 800px;
+  }
+  body .mas-sobre .container-fluid {
+    padding: 0px;
   }
 }
 
