@@ -4,21 +4,28 @@
 }
 .nav-bar{
     background-color: orange;
-    a{
+   
+     li a{
         color: black;
         font-size: 15px;
         font-weight: bold;
-        height: 20px;
         padding: 0px;
         text-align: center;
         margin-right: 50px;
         border-radius: 10px;
     }
-    a:hover {
+    li a:hover {
         background-color: black;
         color: orange;
         height: 25px;
         transition: 1s;
         border-radius: 0px;
+    }
+    img{
+        height: 50px;
+        
+    }
+    a{
+        margin: 0px;
     }
 }

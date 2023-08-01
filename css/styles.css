@@ -195,22 +195,27 @@ body .mas-sobre {
 .nav-bar {
   background-color: orange;
 }
-.nav-bar a {
+.nav-bar li a {
   color: black;
   font-size: 15px;
   font-weight: bold;
-  height: 20px;
   padding: 0px;
   text-align: center;
   margin-right: 50px;
   border-radius: 10px;
 }
-.nav-bar a:hover {
+.nav-bar li a:hover {
   background-color: black;
   color: orange;
   height: 25px;
   transition: 1s;
   border-radius: 0px;
+}
+.nav-bar img {
+  height: 50px;
+}
+.nav-bar a {
+  margin: 0px;
 }
 
 body {
