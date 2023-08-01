@@ -203,11 +203,11 @@ body .mas-sobre {
 }
 .nav-bar li a {
   color: black;
-  font-size: 15px;
+  font-size: 30px;
   font-weight: bold;
   padding: 0px;
   text-align: center;
-  margin-right: 50px;
+  margin-top: 10px;
   border-radius: 10px;
 }
 .nav-bar li a:hover {
