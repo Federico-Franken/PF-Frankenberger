@@ -267,6 +267,10 @@ body .nuetra-flota a:hover {
   background-color: black;
   color: orange;
 }
+body .nosotros {
+  background-image: url("../../media/foto-nosotros.jpg");
+  height: 600px;
+}
 body .boxs h2 {
   font-size: 50px;
   padding-bottom: 10px;
