@@ -24,11 +24,47 @@ body {
     }
     .reserva {
         background-image: url("../media/background-img-reserva_.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        height: auto;
+        width: auto;
+        padding: 40px;
+        h1{
+            font-size: 60px;
+            font-weight: bold;
+            color: white;
+            margin-top: 30px;
+        }
+        @media (max-width:600px) {
+           
+                h1{
+                    font-size: 50px;
+                } 
+            
+           
+        }
     }
     .nuetra-flota{
         background-image: url("../media/nuestraflota-background-2.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        height: auto;
+        width: auto;
+        padding: 40px;
         h1{
-            color: black;
+            font-size: 60px;
+            font-weight: bold;
+            color: white;
+            margin-top: 30px;
+        }
+        @media (max-width:600px) {
+           
+                h1{
+                    font-size: 50px;
+                    color: black;
+                } 
+            
+           
         }
         a:hover{
             background-color: black;
@@ -37,6 +73,11 @@ body {
     }
     .nosotros{
         background-image: url("../media/foto-nosotros.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        height: auto;
+        width: auto;
+        padding: 40px;
         height: 600px;
     }
     .boxs{
