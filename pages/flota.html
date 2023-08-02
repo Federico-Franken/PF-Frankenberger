@@ -18,38 +18,74 @@
 </head>
 
 <body>
-    <!-- HEADER-NAV -->
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg bg-warning">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="../index.html">Efficient</a>
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="reserva.html">Reserva</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="flota.html">Flota</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
+    <!-- HEADER-->
+    <header class="header d-none d-xl-block ">
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-4">
+                    <a href="../index.html">
+                        <img src="../media/logo.png" alt="Efficient logo">
+                    </a>
+                </div>
+                <div class="col-6 head-2">
+                    <div>
+                        <a href="https://www.whatsapp.com/?lang=es_LA">
+                            <div class="sub-head">
+                                <span>Whatsapp</span>
+                                <p>(+54 261) 641 2890</p>
+                            </div>
+                            <div class="sub-i">
+                                <i class="bi bi-whatsapp"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.whatsapp.com/?lang=es_LA">
+                            <div class="sub-head">
+                                <span>Interior del país</span>
+                                <p>(+54 261) 4245480</p>
+                            </div>
+                            <div class="sub-i">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg sticky-top nav-bar">
+        <div class="container-fluid">
+            <a class="navbar-brand d-xl-none" href="../index.html">
+                <img class="img-fluid" src="../media/logo-nav.png" alt="Efficient logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./reserva.html">Reserva</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./flota.html">Flota</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- NUESTRA-FLOTA-BOTONES -->
     <section>
         <div class="container-fluid">
@@ -141,41 +177,40 @@
             </div>
         </div>
     </section>
-    <!-- NUESTRAS-REDES -->
-    <section class="redes">
-        <div class="container-fluid text-center">
-            <div class="row">
-                <div class="col  mt-4 mb-4">
-                    <h2>NUESTRAS REDES</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col mb-4">
-                    <a href="https:www.facebook.com"><i class="bi bi-facebook"></i></a>
-                </div>
-                <div class="col mb-4">
-                    <a href="https:www.instagram.com"><i class="bi bi-instagram"></i></a>
-                </div>
-                <div class="col mb-4">
-                    <a href="https:twitter.com"><i class="bi bi-twitter"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- FOOTER -->
-    <footer>
-        <div class="container-fluid text-center">
+    <footer class="footer">
+        <div class="container-fluid p-0 text-center">
             <div class="row">
-                <div class="col-12">
-                    <a class="btn button button--modificado" href="#" role="button">IR AL TOP</a>
+                <div class=" col-sm-12 col-lg-4 mb-5 align-self-center ">
+                    <a href="../index.html">
+                        <img class=".tam-img" src="../media/logo.png" alt="Logo Efficient">
+                    </a>
                 </div>
-            </div>
-            <div class="row bg-warning pt-3">
-                <div class="col-6">
+                <div class="col-sm-12 col-lg-4 mb-4">
+                    <h4>PREGUNTAS FRECUENTES</h4>
+                    <div class="preguntas-footer">
+                        <a class="nav-link" href="../pages/nosotros.html">¿Quiénes somos?</a>
+                        <a class="nav-link" href="../pages/reserva.html">¿Cómo alquilar un vehículo?</a>
+                        <a class="nav-link" href="../pages/contacto.html">¿Dónde nos encontramos?</a>
+                        <a class="nav-link" href="../pages/contacto.html">¿Por que medios contactarse?</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 mb-3">
+                    <h4>SIGUENOS</h4>
+                    <div class="icon-footer">
+                        <div>
+                            <a href="https:www.facebook.com"><i class="bi bi-facebook"></i></a>
+                        </div>
+                        <div>
+                            <a href="https:www.instagram.com"><i class="bi bi-instagram"></i></a>
+                        </div>
+                        <div>
+                            <a href="https:twitter.com"><i class="bi bi-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-3 align-items-center text-center derechos-footer">
                     <p>Derechos de autor © 2023. Mi sitio web.</p>
-                </div>
-                <div class="col-6">
-                    <p>Contáctanos en info@eficient.com</p>
                 </div>
             </div>
         </div>
