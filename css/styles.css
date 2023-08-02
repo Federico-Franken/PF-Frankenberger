@@ -255,6 +255,9 @@ body .alquiler h1 {
     font-size: 50px;
   }
 }
+body .reserva {
+  background-image: url("../../media/background-img-reserva_.jpg");
+}
 body .boxs h2 {
   font-size: 50px;
   padding-bottom: 10px;
