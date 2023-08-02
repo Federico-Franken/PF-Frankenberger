@@ -80,6 +80,14 @@ body .mas-sobre {
   width: 400px;
   height: 200px;
 }
+@media (max-width: 500px) {
+  .formulario-contacto {
+    width: 350px;
+  }
+  .formulario-contacto textarea {
+    width: 200px;
+  }
+}
 
 .button {
   margin: 10px;
@@ -106,18 +114,6 @@ body .mas-sobre {
   background-color: white;
 }
 
-/* .h1-decoration {
-    color: black;
-    font-weight: bold;
-    background-color: $color-naranja;
-    border-radius: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    margin-top: 50px;
-} */
 .carrusel {
   margin-bottom: 30px;
   padding: 100px;
@@ -305,6 +301,9 @@ body .nosotros {
   width: auto;
   padding: 40px;
   height: 600px;
+}
+body .contacto {
+  background-color: rgba(255, 200, 83, 0.6980392157);
 }
 body .boxs h2 {
   font-size: 50px;

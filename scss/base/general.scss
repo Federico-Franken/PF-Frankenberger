@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .formulario {
     width: 700px;
     .field {
@@ -41,8 +40,13 @@
         width: 400px;
         height: 200px;
     }
+    @media (max-width:500px) {
+        width: 350px;
+        textarea{
+            width: 200px;
+        }
+    }
 }
-
 .button {
     margin: 10px;
     padding: 5px;
@@ -50,12 +54,9 @@
     background-color: $color-naranja;
     font-weight: bold;
 }
-
-
 .button--modificado {
     padding: 30px;
 }
-
 .boxs {
     padding: 40px;
     .box-1 {
@@ -68,19 +69,6 @@
         @include box(white);
     }    
 }
-
-/* .h1-decoration {
-    color: black;
-    font-weight: bold;
-    background-color: $color-naranja;
-    border-radius: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    margin-top: 50px;
-} */
 .carrusel{
     margin-bottom: 30px;
     padding: 100px;
