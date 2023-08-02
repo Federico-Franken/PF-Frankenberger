@@ -255,10 +255,10 @@ body .alquiler h1 {
   }
 }
 body .reserva {
-  background-image: url("../../media/background-img-reserva_.jpg");
+  background-image: url("../media/background-img-reserva_.jpg");
 }
 body .nuetra-flota {
-  background-image: url("../../media/nuestraflota-background-2.jpg");
+  background-image: url("../media/nuestraflota-background-2.jpg");
 }
 body .nuetra-flota h1 {
   color: black;
@@ -268,7 +268,7 @@ body .nuetra-flota a:hover {
   color: orange;
 }
 body .nosotros {
-  background-image: url("../../media/foto-nosotros.jpg");
+  background-image: url("../media/foto-nosotros.jpg");
   height: 600px;
 }
 body .boxs h2 {
