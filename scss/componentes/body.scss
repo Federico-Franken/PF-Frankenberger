@@ -101,7 +101,17 @@ body {
            @include foto-info (#ffc853b2);
         } 
     }
-   
+    .flota-cards{
+        img{
+            width: 400px;
+            height: 300px;
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
     
 }
 

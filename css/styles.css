@@ -341,6 +341,15 @@ body .mas-sobre h2 {
     padding: 0px;
   }
 }
+body .flota-cards img {
+  width: 400px;
+  height: 300px;
+}
+body .flota-cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 footer {
   padding-top: 50px;
